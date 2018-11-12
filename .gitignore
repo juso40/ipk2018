@@ -1,0 +1,7 @@
+# alle Dateien, die auf .o enden
+*.o
+# eine bestimmte Datei, z.B. ein Executable
+statistics
+# Sicherungskopien, die auf ~ enden
+*~
+

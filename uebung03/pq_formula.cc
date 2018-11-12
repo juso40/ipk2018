@@ -27,7 +27,7 @@ int main()
           x1=(((-b)+sqrt(squareroot))/(2*a));
           x2=(((-b)-sqrt(squareroot))/(2*a));
           
-          if (squareroot<0 or a==b==0){
+          if (squareroot<0 ){
             cout << "Result is complex!" << endl;   
           }
           
@@ -38,7 +38,9 @@ int main()
           else if (squareroot>0){
              cout << "x1=" << x1 << "\n" << "x2=" << x2 <<endl;
           }
-       
+          else if (a==b==0){
+            cout << "No solution!"<<endl;
+          } 
       
       }
       else if (t == "n") {
